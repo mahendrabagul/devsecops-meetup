@@ -45,6 +45,6 @@ nsComment               = "OpenSSL Generated Server Certificate"
 subjectAltName          = @alt_names
 [ alt_names ]
 DNS.1                   = localhost
-DNS.2                   = mahendrabagul.tech
+DNS.2                   = 0.0.0.0
 DNS.3                   = http://mahendrabagul.tech
 DNS.4                   = https://mahendrabagul.tech

@@ -1,5 +1,6 @@
 syntax = "proto3";
 
+option go_package = "github.com/devsecops-meetup/employee/employee";
 package employee;
 
 service EmployeeService {
@@ -20,3 +21,4 @@ message EmployeeDetails {
   string firstName = 3;
   string lastName = 4;
 }
+
